@@ -41,9 +41,10 @@ sudo chgrp developers /project/dev
 sudo chmod 770 /project/dev
 
 # Admins
-sudo chgrp :admins /project/admin
+sudo chgrp admins /project/admin
 sudo chmod 770 /project/admin
 
 # Testers
-sudo chgrp :testers /project/test
+sudo chgrp testers /project/test
 sudo chmod 770 /project/test
+
