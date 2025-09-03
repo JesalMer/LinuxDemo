@@ -48,4 +48,12 @@ sudo chmod 770 /project/admin
 sudo chgrp testers /project/test
 sudo chmod 770 /project/test
 
+### 4. screenshots
+- [Addgroups ](screenshot/addgroups.png)
+- [Addusers & add into groups](screenshot/addusers.png)
+- [Groups](screenshot/groups.png)
+- [Users](screenshot/users.png)
+-[Give rwx permission& sgid](screenshot/permission.png)
+-[Remove sg id from permission](screenshot/removesg.png)
+
 
