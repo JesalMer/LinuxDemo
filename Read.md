@@ -36,15 +36,16 @@ sudo useradd  -c "tester" -s /bin/bash -G testers tester1
 sudo mkdir -p /project/dev /project/admin /project/test
 
 ### 4. Assign Ownership and Permissions
-# Developers
+## Developers
 sudo chgrp developers /project/dev
 sudo chmod 770 /project/dev
 
-# Admins
+## Admins
 sudo chgrp admins /project/admin
 sudo chmod 770 /project/admin
 
-# Testers
+## Testers
 sudo chgrp testers /project/test
 sudo chmod 770 /project/test
+
 
