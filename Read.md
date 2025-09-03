@@ -48,12 +48,13 @@ sudo chmod 770 /project/admin
 sudo chgrp testers /project/test
 sudo chmod 770 /project/test
 
-### 4. screenshots
-- [Addgroups ](screenshot/addgroups.png)
-- [Addusers & add into groups](screenshot/addusers.png)
-- [Groups](screenshot/groups.png)
-- [Users](screenshot/users.png)
--[Give rwx permission& sgid](screenshot/permission.png)
--[Remove sg id from permission](screenshot/removesg.png)
+### 5. screenshots
+ i.Create groups -[Addgroups ](screenshot/addgroups.png)
+ii. Create users and add into groups -[Addusers & add into groups](screenshot/addusers.png)
+iii. Total gorps -[Groups](screenshot/groups.png)
+iv. Users -[Users](screenshot/users.png)
+vi. Give read,write,execute pemission& sgid -[Give rwx permission& sgid](screenshot/permission.png)
+vii. Remving sgid -[Remove sgid](screenshot/removesg.png)
+viii. Generate ssh public& private keys -[generate keys](screenshot/sshkey.png)
 
 
