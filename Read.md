@@ -44,7 +44,11 @@ sudo chmod 770 /project/dev
 sudo chgrp admins /project/admin
 sudo chmod 770 /project/admin
 
-## Testers## 5. Screenshots
+## Testers
+sudo chgrp testers /project/test
+sudo chmod 770 /project/test
+
+## 5. Screenshots
 
 ### i. Create Groups  
 ![Add Groups](screenshot/addgroups.png)
@@ -67,17 +71,6 @@ sudo chmod 770 /project/admin
 ### vii. Generate SSH Public & Private Keys  
 ![Generate Keys](screenshot/sshkey.png)
 
-sudo chgrp testers /project/test
-sudo chmod 770 /project/test
-
-### 5. screenshots
- Create groups -[Addgroups ](screenshot/addgroups.png) ,
-ii. Create users and add into groups -[Addusers & add into groups](screenshot/addusers.png) ,
-iii. Total gorps -[Groups](screenshot/groups.png) ,
-iv. Users -[Users](screenshot/users.png) ,
-vi. Give read,write,execute pemission& sgid -[Give rwx permission& sgid](screenshot/permission.png) ,
-vii. Remving sgid -[Remove sgid](screenshot/removesg.png) ,
-viii. Generate ssh public& private keys -[generate keys](screenshot/sshkey.png) 
 
 
 
